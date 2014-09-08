@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:padding="@dimen/com_padding_medium_small"
+     >
+
+    <!-- 城市信息部分 -->
+    <RelativeLayout
+        android:id="@+id/lyCityInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/com_list_h_medium"
+        android:visibility="visible" >
+        
+        <ImageView 
+            android:id="@+id/ivExpande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_offline_u"
+            android:scaleType="centerInside"
+            />
+        
+        <TextView
+            android:id="@+id/tvSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ivExpande"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="30M"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/com_textsize_medium" />
+
+        <TextView
+            android:id="@+id/tvCityname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tvSize"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/com_textsize_medium" />
+        
+    </RelativeLayout>
+
+    <!-- 下载进度及管理部分 -->
+    <RelativeLayout
+        android:id="@+id/lyEditPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/pbDownload"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:max="100"
+            android:progressDrawable="@drawable/progress_drawable" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="10dp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pbDownload"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dip" >
+
+            <Button
+                android:id="@+id/btnDown"
+                android:layout_height="@dimen/com_btn_h_medium"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dip"
+                android:minWidth="100dp"
+                android:text="下载"
+                android:textSize="@dimen/com_textsize_medium_small" />
+
+            <Button
+                android:id="@+id/btnRemove"
+                android:layout_height="@dimen/com_btn_h_medium"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:minWidth="100dp"
+                android:text="删除"
+                android:textSize="@dimen/com_textsize_medium_small" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

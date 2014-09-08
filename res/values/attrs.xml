@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  搜索框-->
+    <declare-styleable name="search_view">
+        <attr name="hint" format="string" />
+        <attr name="show_search_button" format="boolean" />
+    </declare-styleable>
+
+</resources>

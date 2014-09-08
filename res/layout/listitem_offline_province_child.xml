@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/com_list_h_medium"
+    android:padding="@dimen/com_padding_medium_small"
+    android:background="#ffffffff" >
+
+    <ImageView
+        android:id="@+id/ivDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_offline_down" />
+
+    <TextView
+        android:id="@+id/tvSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/ivDownload"
+        android:gravity="center_vertical"
+        android:text="30M"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/com_textsize_medium" />
+
+    <TextView
+        android:id="@+id/tvCityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/com_textsize_medium" 
+        android:text="北京"/>
+    
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/tvCityname"
+        android:textColor="#ffff0000"
+        android:textSize="@dimen/com_textsize_medium" 
+        android:text="(暂停)"
+        />
+
+</RelativeLayout>

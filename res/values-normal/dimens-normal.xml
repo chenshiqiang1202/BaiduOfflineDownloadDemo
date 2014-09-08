@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="dimen_load_from">normal</string>
+
+    <dimen name="screen_h_0_02">9.6dp</dimen>
+    <dimen name="screen_h_0_04">19.2dp</dimen>
+    <dimen name="screen_h_0_06">28.8dp</dimen>
+    <dimen name="screen_h_0_08">38.4dp</dimen>
+    <dimen name="screen_h_0_1">48dp</dimen>
+    <dimen name="screen_h_0_2">96dp</dimen>
+    <dimen name="screen_h_0_3">144dp</dimen>
+    <dimen name="screen_h_0_4">192dp</dimen>
+    <dimen name="screen_h_0_5">240dp</dimen>
+    <dimen name="screen_h_0_6">288dp</dimen>
+    <dimen name="screen_h_0_7">336dp</dimen>
+    <dimen name="screen_h_0_8">384dp</dimen>
+    <dimen name="screen_w_0_1">32dp</dimen>
+    <dimen name="screen_w_0_2">64dp</dimen>
+    <dimen name="screen_w_0_3">96dp</dimen>
+    <dimen name="screen_w_0_4">128dp</dimen>
+    <dimen name="screen_w_0_5">160dp</dimen>
+    <dimen name="screen_w_0_6">162dp</dimen>
+    <dimen name="screen_w_0_7">224dp</dimen>
+    <dimen name="screen_w_0_8">256dp</dimen>
+    <dimen name="screen_w_0_9">288dp</dimen>
+    <dimen name="screen_w">320dp</dimen>
+    <dimen name="com_textsize_small">9.6dp</dimen>
+    <dimen name="com_textsize_medium_small">13.4dp</dimen>
+    <dimen name="com_textsize_medium">15.7dp</dimen>
+    <dimen name="com_textsize_medium_large">18.9dp</dimen>
+    <dimen name="com_textsize_large">23.7dp</dimen>
+    <dimen name="com_btn_h_medium_small">26dp</dimen>
+    <dimen name="com_btn_h_medium">32dp</dimen>
+    <dimen name="com_btn_h_medium_large">40dp</dimen>
+    <dimen name="com_btn_h_large">46dp</dimen>
+    <dimen name="com_list_h_small">34dp</dimen>
+    <dimen name="com_list_h_medium_small">38dp</dimen>
+    <dimen name="com_list_h_medium">43dp</dimen>
+    <dimen name="com_list_h_medium_large">60dp</dimen>
+    <dimen name="com_list_h_large">80dp</dimen>
+    <dimen name="com_padding_small">8dp</dimen>
+    <dimen name="com_padding_medium_small">10dp</dimen>
+    <dimen name="com_padding_medium">16dp</dimen>
+    <dimen name="com_padding_medium_large">22.1dp</dimen>
+    <dimen name="com_padding_large">30.1dp</dimen>
+    <dimen name="com_list_img_size_small">26.9dp</dimen>
+    <dimen name="com_list_img_size_medium_small">40dp</dimen>
+    <dimen name="com_list_img_size_medium">46.1dp</dimen>
+    <dimen name="com_list_img_size_medium_large">56dp</dimen>
+    <dimen name="com_list_img_size_large">65dp</dimen>
+    <dimen name="search_view_h">43.8dp</dimen>
+    <dimen name="search_view_edittext_h">27.8dp</dimen>
+    <dimen name="dialog_btn_h">46.4dp</dimen>
+
+</resources>

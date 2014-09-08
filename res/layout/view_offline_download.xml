@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:search="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 搜索部分 -->
+    <com.csq.baiduoffline.MySearchView
+        android:id="@+id/svDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        search:hint="输入城市名"
+        search:show_search_button="false" />
+
+    <!-- 下载列表 & 搜索结果 -->
+    <ListView
+        android:id="@+id/lvDown"
+        style="@style/MListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+</LinearLayout>

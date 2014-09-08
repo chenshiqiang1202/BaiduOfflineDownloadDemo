@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:minHeight="@dimen/com_list_h_medium"
+    android:padding="@dimen/com_padding_medium_small">
+
+    <TextView
+        android:id="@+id/tvProvince"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableRight="@drawable/ic_offline_d"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/com_textsize_medium"
+        android:visibility="visible" />
+
+</LinearLayout>
